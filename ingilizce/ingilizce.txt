@@ -1,34 +1,70 @@
 suggestion: önermek
+
 accses:erişim
+
 decive:cihaz
+
 storage:depolama
+
 instandly:aninda
+
 instructions:talimat
+
 instructions:talimat
+
 improve:geliştirme,
+
+
 properties:ozellikelr
-native:yerli 
+
+native:yerli
+
 separate: ayri farkli bir tane
+
+
 pieces:parca
+
 deal:anlasma
+
 currections:duzeltmeler
+
 dedication:adanmişlik
+
 actually:aslında
+
 consistency:duzenlilik süreklilik
+
 been: olmak olmuş
+
+
 ı have to:mecbur olmak
+
 necessary:gerekli
-reach:ulasmak 
-directy:dogrudan 
+
+reach:ulasmak
+
+directy:dogrudan
+
 colleagues:meslektas
+
 certein:kesin
+
 actually:aslında
+
 converstation:sopet
+
 nonsense:saçma
+
 that enables:saglayan
+
 alaw:saglayan
+
 scoped:kapsamli
+
 dropdowns:acik menüler
+
 suggest:onermek
+
 article:makale
+
 casting:kaliba dökme
