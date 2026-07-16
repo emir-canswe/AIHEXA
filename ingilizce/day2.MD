@@ -37,17 +37,31 @@ cumleler
 kelimeler
 
 1:responsible:sorumluluk
+
 2:expect:beklenen
+
 3:still:hala
+
 4:wrong:yanliş
+
 5:right:dogru
+
 6:let know:haber vermek
+
 7:seen:gormus
+
 8:ready:hazir
+
 9:usualy:genellikle
+
 10:wake up:uyanmak
+
 11:miss :kacirmak
+
 12:meeting:toplanti
+
 13:decide:karar vermek
+
 14:solution:cevap
+
 15:looging:for
