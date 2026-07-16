@@ -19,9 +19,15 @@ inglizcede en cok kullanilan 15 kalip cumle
 kelimeler
 
 sure:emin olmak
+
 arrive:varmak
+
 tired:yorulmak
+
 agre:katilmak
+
 forget:unutmak
+
 letter:sonra
+
 forward:ileri

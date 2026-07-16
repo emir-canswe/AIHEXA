@@ -39,7 +39,7 @@ words
 
 1:alone:yanliz
 
-2:complete:tamalamak
+2:complete:tamalamak,yapmak 
 
 3:on time:zamaninda
 

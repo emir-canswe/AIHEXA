@@ -88,7 +88,6 @@
 
 <div id="page-home" class="page active">
 
-    <!-- HERO -->
     <div id="hero">
         <h1 class="display-5 fw-bold">Merhaba, Ben Emir Can</h1>
         <p class="lead text-muted">Yazılım Geliştirici & Stajyer</p>
@@ -315,7 +314,7 @@
 
 <script>
 
-    // Sayfa göster/gizle
+
     function showPage(page) {
         document.getElementById('page-home').classList.remove('active');
         document.getElementById('page-login').classList.remove('active');
@@ -324,7 +323,7 @@
         window.scrollTo(0, 0);
     }
 
-    // login kismi
+
     document.getElementById('loginForm').onsubmit = function(e) {
         e.preventDefault();
         var ok = true;
@@ -356,7 +355,7 @@
         }
     };
 
-    // Register Form
+
     document.getElementById('registerForm').onsubmit = function(e) {
         e.preventDefault();
         var ok = true;
@@ -396,7 +395,7 @@
         }
     };
 
-    // Contact Form
+
     document.getElementById('contactForm').onsubmit = function(e) {
         e.preventDefault();
         var ok = true;
@@ -435,7 +434,7 @@
         }
     };
 
-    // Arama
+
     function ara() {
         var q = document.getElementById('searchInput').value.toLowerCase().trim();
         var map = {
