@@ -72,3 +72,89 @@ casting:kaliba dökme
 flow:akiş
 
 somewhere:bir yerlerde
+
+
+
+improve      → geliştirmek
+
+achieve      → başarmak
+
+consider     → düşünmek
+
+require      → gerektirmek
+
+provide      → sağlamak
+
+manage       → yönetmek
+
+support      → desteklemek
+
+include      → dahil etmek
+
+avoid        → kaçınmak
+
+ensure       → emin olmak
+
+implement    → uygulamak
+
+maintain     → bakımını yapmak
+
+collaborate  → işbirliği yapmak
+
+efficient    → verimli
+
+experience   → deneyim
+
+opportunity  → fırsat
+
+responsibility→ sorumluluk
+
+challenge    → zorluk
+
+dedication   → adanmışlık
+
+necessary    → gerekli
+
+reach        → ulaşmak
+
+directly     → doğrudan
+
+actually     → aslında
+
+immediately  → hemen
+
+otherwise    → aksi takdirde
+
+meanwhile    → bu arada
+
+however      → ancak
+
+although     → rağmen
+
+therefore    → bu yüzden
+
+finally      → sonunda
+
+instead      → bunun yerine
+
+moreover     → üstelik
+
+certain      → kesin
+
+purpose      → amaç
+
+suggestion   → öneri
+
+access       → erişim
+
+device       → cihaz
+
+storage      → depolama
+
+instantly    → anında
+
+separate     → ayrı
+
+corrections  → düzeltmeler
+
+consistency  → düzenlilik
