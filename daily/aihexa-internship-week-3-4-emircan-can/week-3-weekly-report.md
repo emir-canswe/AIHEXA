@@ -21,7 +21,7 @@ week-3-git-github.md dosyalarını hazırladım.
 Diğer haftalık dosyaları boş olarak ekledim.
 
 **Codenorm — Playwright Test Çalışması:**
-Bugün müşteri oluşturma senaryosu üzerine çalıştım.
+Bugün müşteri oluşturma senaryosu üzerine çalıştım ve tesleri yazdim.
 
 **Yarın ne yapacağım?**
 Spring Boot ve backend kavramlarını araştıracağım. REST API,
