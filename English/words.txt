@@ -158,3 +158,31 @@ separate     → ayrı
 corrections  → düzeltmeler
 
 consistency  → düzenlilik
+
+curious → merakli
+
+determine → belirlemek
+
+disappoint → hayal kırıklıgı
+
+encourage → teşfik etmek
+
+establish → kurmak
+
+evaluate → degerlendirmek
+
+flexible → esnek
+
+grateful → minnettar
+
+hesitate → tereddut etmek
+
+independent → bagizsiz olmak
+
+influence → etkilemek
+
+interrupt → kesmek
+
+negotiate → muzakere etmek
+
+overcome → ustesinden gelmek
