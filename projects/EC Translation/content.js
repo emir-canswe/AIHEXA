@@ -36,11 +36,49 @@ function handleMouseDown(e) {
 }
 
 /**
- * Handle key down: close popup if ESC key pressed
+ * Handle key down: close popup if ESC key pressed, or translate selection if Shift + T pressed
  */
 function handleKeyDown(e) {
   if (e.key === 'Escape' && activePopupHost) {
     removePopup();
+    return;
+  }
+
+  // Shift + T shortcut to translate selected text
+  if (e.shiftKey && e.key.toLowerCase() === 't') {
+    let selectedText = '';
+    let rect = null;
+
+    // 1. Check standard page text selection
+    const selection = window.getSelection();
+    if (selection && selection.toString().trim().length > 0) {
+      selectedText = selection.toString().trim();
+      try {
+        const range = selection.getRangeAt(0);
+        rect = range.getBoundingClientRect();
+      } catch (err) {}
+    } else {
+      // 2. Check input and textarea selection
+      const activeEl = document.activeElement;
+      if (activeEl && (activeEl.tagName === 'INPUT' || activeEl.tagName === 'TEXTAREA')) {
+        try {
+          const start = activeEl.selectionStart;
+          const end = activeEl.selectionEnd;
+          if (start !== undefined && end !== undefined && start !== end) {
+            selectedText = activeEl.value.substring(start, end).trim();
+            rect = activeEl.getBoundingClientRect();
+          }
+        } catch (err) {}
+      }
+    }
+
+    if (selectedText && /[a-zA-ZğüşıöçİĞÜŞIÖÇ]/.test(selectedText)) {
+      e.preventDefault(); // Prevent typing 'T' or executing default behaviors when text is selected
+      if (activePopupHost) {
+        removePopup();
+      }
+      createTranslationPopup(selectedText, rect);
+    }
   }
 }
 

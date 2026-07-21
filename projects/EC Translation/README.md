@@ -7,6 +7,7 @@ Web sayfalarında gezinirken bilmediğiniz yabancı kelimelerin Türkçe/İngili
 ## 🚀 Özellikler
 
 - **Tek Tıkla / Çift Tıklamayla Çeviri**: Sayfa üzerinde herhangi bir kelimeye çift tıkladığınızda veya bir metin grubunu seçtiğinizde anında çeviri popup'ı görünür.
+- **Klavye Kısayolu (Shift + T)**: Bir kelime veya metin seçtikten sonra `Shift + T` klavye kısayoluna basarak da çeviriyi anında tetikleyebilirsiniz.
 - **Akıllı Dil Algılama**:
   - Chrome'un yerel `chrome.i18n.detectLanguage` API'sini kullanır.
   - Eğer algılanan dil Türkçe ise metni otomatik olarak **İngilizceye** (tr → en) çevirir.
@@ -56,7 +57,7 @@ Eklentiyi bilgisayarınıza yerel olarak yüklemek için aşağıdaki adımları
 ## 🧪 Nasıl Kullanılır?
 
 1. Herhangi bir web sitesine girin (örneğin: [Wikipedia](https://en.wikipedia.org/)).
-2. Sayfadaki bir kelimeye (örneğin `"serendipity"`) **çift tıklayın** veya fareyle bir cümleyi **seçip bırakın**.
+2. Sayfadaki bir kelimeye (örneğin `"serendipity"`) **çift tıklayın**, fareyle bir cümleyi **seçip bırakın** VEYA metni seçtikten sonra klavyeden **Shift + T** tuşlarına basın.
 3. Seçtiğiniz alanın hemen yakınında açılan şık popup penceresinde çeviriyi göreceksiniz.
 4. **🔊 Dinle** butonuna tıklayarak telaffuzunu dinleyebilirsiniz.
 5. Kapatmak için sağ üstteki **×** işaretine basabilir, sayfada boş bir yere tıklayabilir veya **ESC** tuşunu kullanabilirsiniz.
